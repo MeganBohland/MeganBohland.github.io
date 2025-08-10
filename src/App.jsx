@@ -3,9 +3,12 @@ import React from 'react';
 
 export default function App() {
   return (
+    
     <main style={{ maxWidth: 800, margin: '2rem auto', fontFamily: 'Arial, sans-serif', lineHeight: 1.6, padding: '0 1rem' }}>
       <h1>Megan Bohland – Developer Portfolio</h1>
-
+    <div className="bg-portfolioPink text-portfolioDark font-fancy h-screen flex items-center justify-center">
+      <h1 className="text-5xl font-bold">Welcome to Megan’s Portfolio</h1>
+    </div>
       <p>
         I'm a full-stack engineer with a broad range of experience—from backend APIs to frontend UX, from developing plugins for Moodle (an LMS - Learning Management System) to game modding. If I don't know how to do something yet, I know how to learn it. I started as a hobbyist, tinkering with whatever tools I could get my hands on. I discovered my passion and went back to school for programming. First earning an Associates in Computer Programming then a Bachelors in Game Development and Design. I thrive in fast-paced environments, love solving problems, and I'm not afraid to dive into the deep end of new technologies. I use two GitHub accounts:
       </p>
