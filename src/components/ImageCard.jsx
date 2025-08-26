@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ImageCard({ src, alt, caption, link }) {
   return (
-    <div className="relative group w-64 h-64 overflow-hidden rounded-2xl shadow-lg">
+    <div className="rounded-lg shadow-lg w-full max-w-sm object-cover relative group w-64 h-64 overflow-hidden rounded-2xl shadow-lg">
       {/* Image */}
       <img
         src={src}
@@ -18,7 +18,6 @@ className="w-full h-full object-contain transition-transform duration-300 group-
             <a
               href={link}
               target="_blank"
-
               className="text-sm underline mt-2 block"
             >
 
