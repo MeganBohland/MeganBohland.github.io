@@ -59,7 +59,7 @@ export default function App() {
             <Paragraph>
               Oddly, it wasn't until the end of my college career that I was introduced to GitHub. I was in a class focused on presenting my accomplished projects in repos, rather than utilizing Git as the truly awesome work iteration tool it is. 
               While I’m working on properly setting up these repos, with readmes that explain how to use the software more along industry standard, for now this GitHub houses my school projects, and personal programming endeavors. 
-              My current project is a mod for one of my favorite games, 7 Days to Die. I’m building it in Unreal, because I’ll be darned if a game can tell me I can’t have pet chickens. 
+              My current project is a mod for one of my favorite games, 7 Days to Die. I’m building it in Unity, because I’ll be darned if a game can tell me I can’t have pet chickens. 
             </Paragraph>
    
                       {/* Right: first program image */}
@@ -150,7 +150,12 @@ Once I entered the tech workforce I started a GitHub with my name. It houses ope
           </Section>
           </div>
         </div>
-          <Section heading="Groups I Am Involved With" classname="objects-center"></Section>
+          <Section>
+            <h2 className="text-portfolioDark text-4xl text-center font-semibold mb-4"> Groups I Am Involved With
+            </h2>
+
+
+          </Section>
                       <div className="container mx-auto px-4">
   <div className="flex flex-col lg:flex-row-reverse items-center gap-6">
 
@@ -167,7 +172,7 @@ Once I entered the tech workforce I started a GitHub with my name. It houses ope
 <Section heading="Serious Games Showcase and Challenge">
             <Paragraph>
             This year I am honored to be on the committee for the Serious Games Showcase and Challenge. This group promotes the use of games in education, and provides a platform for developers to share    
-            showcase their work. The winners the annual challenge will showcase their work at the Interservice/Industry Training, Simulation and Education Conference (I/ITSEC) in Orlando, Florida. As both a committee member, and a judge of the            
+            showcase their work. The winners the annual challenge will showcase their work at the Interservice/Industry Training, Simulation and Education Conference (I/ITSEC) in Orlando, Florida. As both a committee member, and part of the judging panel           
             this year in Orlando, I am excited to bring my perspective into the challenge as a software engineer, someone who majored in game development, and most importantly a woman who loved educational games as a kid—and still does.
               </Paragraph>
               <Paragraph>
@@ -271,7 +276,7 @@ Once I entered the tech workforce I started a GitHub with my name. It houses ope
         <div className="flex flex-col items-center gap-6">
           <Section heading="Contact Me">
             <Paragraph>
-              If you would like to contact me, you can reach me at my email:{" "}
+              If you would like to contact me, you can reach me at my email: {" "}
               <a
                 className="text-portfolioDark font-bold"
                 href="mailto:meganbohland86@gmail.com"
@@ -279,10 +284,10 @@ Once I entered the tech workforce I started a GitHub with my name. It houses ope
                 meganbohland86@gmail.com
               </a>
               <br />
-              Or connect with me on{" "}
+              Or connect with me on {""}
               <a
                 className="text-portfolioDark font-bold"
-                href="https://www.linkedin.com/in/megan-bohland-123456789/"
+                href="https://www.linkedin.com/in/megan-bohland/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -294,6 +299,9 @@ Once I entered the tech workforce I started a GitHub with my name. It houses ope
       </div>
 
       </section>
+      <Footer>
+        Thank you to this awesome artist for the goldfish thumbnail. <a href="https://pikbest.com/png-images/goldfish-vector-silhouette-illustration-art-drawing-line_10890938.html">Free png images from pikbest.com</a>
+      </Footer>
     </main>
   );
 }
